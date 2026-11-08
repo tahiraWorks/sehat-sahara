@@ -65,4 +65,4 @@ pip install -r requirements.txt
 ## License & attribution
 
 - Gemma is provided under Google's [Gemma Terms of Use](https://ai.google.dev/gemma/terms).
-- Add your own license for the code here (e.g. MIT) as a `LICENSE` file.
+
