@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Model weights and data
+*.safetensors
+*.bin
+*.pt
+*.gguf
+data/
+
+# Notebook / Python junk
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
