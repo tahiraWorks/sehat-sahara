@@ -41,12 +41,16 @@ cd sehat-sahara
 pip install -r requirements.txt
 ```
 
-1. Accept the Gemma license on the model's Hugging Face page and log in:
+1. In the notebook, replace the Kaggle `model_path` with the Hugging Face model ID:
+   ```python
+   model_path = "google/gemma-4-E4B-it"
+   ```
+   The weights (roughly 16 GB) download automatically the first time you run it.
+2. If Hugging Face asks you to accept terms or log in for this model, do so on the
+   [model page](https://huggingface.co/google/gemma-4-E4B-it), then run:
    ```bash
    huggingface-cli login
    ```
-2. In the notebook, replace the Kaggle `model_path` with the Hugging Face model ID
-   (check the exact ID on the model page).
 3. Run the notebook. A GPU is strongly recommended.
 
 ## Privacy notes
