@@ -36,7 +36,7 @@ workers describe symptoms in Urdu or English and get simple, safe, general guida
 ## Run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sehat-sahara.git
+git clone https://github.com/tahiraWorks/sehat-sahara.git
 cd sehat-sahara
 pip install -r requirements.txt
 ```
